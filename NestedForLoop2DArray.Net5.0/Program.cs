@@ -17,6 +17,18 @@ namespace NestedForLoop2DArray.Net5._0
             {
                 Console.Write(item + " ");
             }
+
+            Console.WriteLine("This is our 2D array printed using a nested for loop");
+            //outer for loop
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                //inner for loop
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+
+                }
+            }
+
         }
     }
 }
