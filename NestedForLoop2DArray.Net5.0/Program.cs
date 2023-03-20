@@ -25,7 +25,7 @@ namespace NestedForLoop2DArray.Net5._0
                 //inner for loop
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-
+                    Console.WriteLine(matrix[i,j] + " ");
                 }
             }
 
